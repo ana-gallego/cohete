@@ -1,0 +1,61 @@
+<!-- ¡Créditos al autor por la imagen del cohete! <a href='http://dryicons.com/icon/spaceship-icon-5255'> Icon by Dryicons </a> -->
+
+<!-- sonido -->
+<audio autoplay loop="true">
+  <source src="../../assets/soundbackgroud1.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
+
+<div class="space">
+  <section class="status">
+    <h3>¡Planeta {{ planeta }} avistado a {{ grados| number:'2.4'}} grados!</h3>
+  </section>
+  <div>
+    <section class="rocket">
+      <div class="row">
+        <app-motor #motor (click)="cabina.start()"></app-motor>
+        <app-cabina #cabina></app-cabina>
+      </div>
+    </section>
+  </div>
+
+  <div class="tresA">
+    <img src="../../assets/logo.png" alt="" />
+  </div>
+</div>
+
+<!-- Asteroides -->
+<div class="asteroides" aria-hidden="true">
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+  <div class="asteroide">
+    <img src="../../assets/asteroide.png">
+  </div>
+</div>
+
+<link rel="stylesheet" href="../../assets/text.css" />
